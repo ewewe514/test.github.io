@@ -1,4 +1,4 @@
-local WindUI = loadstring(game:HttpGet("https://github.com/ewewe514/WindUI/releases/latest/download/main.lua"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ewewe514/WindUI/main/dist/main.lua"))()
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Camera = workspace.CurrentCamera
@@ -29,10 +29,6 @@ Window:EditOpenButton({
 
 
 
-MainSection = Window:Section({
-    Title = "Main",
-    Opened = true,
-})
 
 local Tabs = {
     Home = Window:Tab({ Title = "(Logs)", Icon = "star" }),
