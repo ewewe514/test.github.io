@@ -35,6 +35,7 @@ MainSection = Window:Section({
 })
 
 local Tabs = {
+    Home = Window:Tab({ Title = "(Logs)", Icon = "star" }),
     Main = Window:Tab({ Title = "Dupe (Logs)", Icon = "star" }),
     Teleport = Window:Tab({ Title = "Teleport", Icon = "rocket" }),
     Bring = Window:Tab({ Title = "Bring All Items", Icon = "package" }),
